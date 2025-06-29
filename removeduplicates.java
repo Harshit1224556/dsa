@@ -14,14 +14,12 @@ public class removeduplicates {
       int j = 0;
     for(int i=1;i<n;i++){
         if(arr[i]!=arr[j]){
-            arr[i] = arr[j];
+            arr[j++] = arr[i];
         }
-        j++;
+    
     }
      
-    for(int i=0;i<n;i++){
-        System.out.println(arr[i]);
-    }
+   System.out.println(j);
     }
 
 }
