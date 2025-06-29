@@ -16,3 +16,4 @@ public class maxandmin {
         System.out.println("Minimum: " + min);
     }
 }
+
