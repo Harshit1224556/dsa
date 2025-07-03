@@ -11,8 +11,7 @@ public class rotatearr {
         reverse(arr,0,n-k-1);
         reverse(arr,n-k,n-1);
         reverse(arr,0,n-1);
-
-
+        
         print(arr);
 
     }
@@ -32,5 +31,5 @@ public class rotatearr {
     }
  }
 
-
 }
+
