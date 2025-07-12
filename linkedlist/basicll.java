@@ -20,10 +20,18 @@ public class basicll {
         c.next=d;
         d.next=e;
 
-        System.out.println(a.data);
-        System.out.println(a.next.data);
-        System.out.println(a.next.next.data);
-        System.out.println(a.next.next.next.data);
-        System.out.println(a.next.next.next.next.data);
+        // System.out.println(a.data);
+        // System.out.println(a.next.data);
+        // System.out.println(a.next.next.data);
+        // System.out.println(a.next.next.next.data);
+        // System.out.println(a.next.next.next.next.data);
+
+        //display a linkedlist using loop rather than printing manually only head is given with you 
+
+        while(a!=null){
+            System.out.println(a.data);
+            a=a.next;
+        }
+
     }
 }
