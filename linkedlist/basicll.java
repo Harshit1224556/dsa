@@ -20,6 +20,7 @@ public class basicll {
                 this.data = data;
             }
         }
+        
 
     public static void main(String[] args) {
         Node a = new Node(10);
