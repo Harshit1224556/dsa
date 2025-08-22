@@ -10,6 +10,7 @@ arrayconcatenor(int arr1[],int arr2[]){
     this.arr2=arr2;
 }
 
+
 void printarraycon(){
     
     for(int i=0;i<arr1.length;i++){
