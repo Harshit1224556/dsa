@@ -26,8 +26,8 @@ public class buystock {
 
 //for optimal use math.min and then compare the difference between them using min and arr[i]
 
-// int max  = 0;
-//int maxPro = 0;
+// i
+//innt max  = 0;t maxPro = 0;
     // int minPrice = Integer.MAX_VALUE;
     // for (int i = 0; i < arr.length; i++) {
     //     minPrice = Math.min(minPrice, arr[i]);
