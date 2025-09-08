@@ -34,8 +34,29 @@ System.out.println(istriplet(n));
 // return false;
 
 
+//5 
 //thats may be the brute force approach now lets move to the optimal approach
 
+
+//
+
+
+
+int low = 0;
+int high = (int)Math.sqrt(n);
+
+while(low<=high){
+
+   int  s   = low*low + high*high;
+   if(s==n) return true;
+   else if(s>n) high--;
+   else if(s<n) low++;
+}
+
+
+
+
+ return false;
 
         
     }
