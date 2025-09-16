@@ -10,21 +10,27 @@ int uniquepath(int sr,int sc,int er,int ec){
      return righway + bottomway;
 }
 
+void  printpath(int sr,int sc,int er,int ec,string s){
 
-//lets solve leetcode style 
-
-int uniquepath(int m,int n){
-
-    if()
-    int r = uniquepath(m,n-1);
-    int l = uniquepath(m-1,n);
+    if(sr>er||sc>ec) return;
+    if(sr==er && sc==ec){
+        cout << s << endl;
+        return;
+    }
+   printpath(sr,sc+1,er,ec,s+'R');
+   printpath(sr+1,sc,er,ec,s+'D');
+    
 }
+
+
+
+ 
 int main()
 {
-//    cout <<  uniquepath(0,0,2,2);
 
 
 
+printpath(0,0,2,2,"");
 
 
 
