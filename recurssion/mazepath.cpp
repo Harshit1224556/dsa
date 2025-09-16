@@ -22,18 +22,16 @@ void  printpath(int sr,int sc,int er,int ec,string s){
     
 }
 
+//we can also do this code by using two parameters
 
+int uniquePaths(int m,int n){
+    if(m<0 || n<0) return 0;
+    if(m==1 && n==1) return 1;
+    uniquePaths(m-1,n) + uniquePaths(m,n-1);
+}
 
- 
 int main()
 {
-
-
-
 printpath(0,0,2,2,"");
-
-
-
-
-    return 0;
+ return 0;
 }
