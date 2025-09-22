@@ -9,9 +9,9 @@ void printsubset(string res,string s,int ind){
     printsubset(res+ch,s,ind+1);
     printsubset(res,s,ind+1);
 }
+
 int main()
 {
-
     string s;
     cin>>s;
     printsubset("",s,0);
