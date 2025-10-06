@@ -22,6 +22,7 @@ void  printpath(int sr,int sc,int er,int ec,string s){
     
 }
 
+
 //we can also do this code by using two parameters
 
 int uniquePaths(int m,int n){
@@ -29,6 +30,7 @@ int uniquePaths(int m,int n){
     if(m==1 && n==1) return 1;
     uniquePaths(m-1,n) + uniquePaths(m,n-1);
 }
+
 
 int main()
 {
